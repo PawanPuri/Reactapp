@@ -1,0 +1,71 @@
+.conect{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conect-col{
+    flex-basis: 48%;
+    color: #676767;
+}
+
+.conect-col h3{
+    color: #000f38;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.conect-col h3 img{
+    margin-left: 10px;
+    width: 35px;
+
+}
+
+.conect-col p{
+    max-width: 450px;
+    line-height: 1.3;
+
+}
+
+.conect-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+
+}
+
+
+.conect-col ul li img{
+    width: 25px;
+    margin-right: 10px;
+}
+.conect form input,.conect form textarea{
+display: block;
+width: 100%;
+background: #ebecfe;
+padding: 15px;
+margin-top: 5px;
+resize: none;
+border: 0;
+outline: 0;
+margin-bottom: 15px;
+}
+
+.conect-col span{
+    display: block;
+    margin: 20px 0;
+}
+/* -------------------------- */
+@media(max-width:700px){
+    .conect{
+        display: block;
+    }
+    .conect-col{
+        padding: 20px;
+    }
+}
